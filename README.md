@@ -58,7 +58,7 @@
 ### Logout
 - **Endpoint:** `POST /api/logout`
 - **Headers:**
-  - `Authorization: Bearer <your_token>`
+  - `Authorization: Bearer <token>`
 - **Response (200):**
 ```json
 {
@@ -71,7 +71,7 @@
 
 ## Products
 
-> **Note:** All endpoints below require authentication (`Authorization: Bearer <your_token>`). Only users with role `admin` can create, update, or delete products. All authenticated users can view products.
+> **Note:** All endpoints below require authentication (`Authorization: Bearer <token>`). Only users with role `admin` can create, update, or delete products. All authenticated users can view products.
 
 ### Get All Products
 - **Endpoint:** `GET /api/products`
